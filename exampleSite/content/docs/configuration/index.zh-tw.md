@@ -67,6 +67,7 @@ aliases = [
 | `poweredBy` | Boolean | `true` | 是否顯示技術支持。
 | `readingTime` | Boolean | `true` | 是否顯示閱讀時間
 | `postDate` | Boolean | `true` | 是否顯示發表日期
+| `postCopyright` | Boolean | `true` | 是否在每個帖子上顯示版權部分
 | `math` | Boolean | `false` | 是否開啟 `math`。
 | `diagram` | Boolean | `false` | 是否開啟 `diagram`。
 | `logo` | String/Boolean | `images/logo.webp` | Logo。設置為 `false` 以禁用 Logo。
@@ -160,6 +161,7 @@ aliases = [
 | `breadcrumb` | Boolean | `true` | 是否開啟面包屑導航
 | `readingTime` | Boolean | `true` | 是否顯示閱讀時間
 | `postDate` | Boolean | `true` | 是否顯示發表日期
+| `postCopyright` | Boolean | `true` | 是否顯示版權部分
 | **Creative Commons License**
 | `creativeCommons` | Object | - |
 | `creativeCommons.by` | Boolean | `true` | 署名

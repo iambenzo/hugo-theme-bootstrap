@@ -67,6 +67,7 @@ See also [All Configuration Settings](https://gohugo.io/getting-started/configur
 | `poweredBy` | Boolean | `true` | Whether to show powered by.
 | `readingTime` | Boolean | `true` | Whether to display the reading time.
 | `postDate` | Boolean | `true` | Whether to display the post date in the post meta section.
+| `postCopyright` | Boolean | `true` | Whether to display copyright section on each post.
 | `math` | Boolean | `false` | Whether to enable math globally.
 | `diagram` | Boolean | `false` | Whether to enable diagram globally.
 | `logo` | String/Boolean | `images/logo.webp` | Logo image. Disable logo by setting it to `false`.
@@ -157,6 +158,7 @@ See also [All Configuration Settings](https://gohugo.io/getting-started/configur
 | `breadcrumb` | Boolean | `true` | Whether to enable breadcrumb.
 | `readingTime` | Boolean | `true` | Whether to display the reading time.
 | `postDate` | Boolean | `true` | Whether to display the post date in the post meta section.
+| `postCopyright` | Boolean | `true` | Whether to display copyright section.
 | **Creative Commons License**
 | `creativeCommons` | Object | - |
 | `creativeCommons.by` | Boolean | `true` | Credit must be given to you, the creator.
