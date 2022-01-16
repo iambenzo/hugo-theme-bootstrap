@@ -131,6 +131,7 @@ See also [All Configuration Settings](https://gohugo.io/getting-started/configur
 | `post` | Object | - | 
 | `post.excerpt` | String | `Summary` | Options: `description`
 | `post.excerptMaxLength` | Integer | `320` |
+| `post.copyright` | Boolean | `true` | Whether to display copyright section on each post.
 | `viewer` | Boolean | true | [Image Viewer]({{< ref "docs/image-viewer" >}})
 | `pwa` | Object | - | [Progressive Web Apps]({{< ref "/docs/pwa" >}})
 | **Meta Tag**
@@ -158,7 +159,7 @@ See also [All Configuration Settings](https://gohugo.io/getting-started/configur
 | `breadcrumb` | Boolean | `true` | Whether to enable breadcrumb.
 | `readingTime` | Boolean | `true` | Whether to display the reading time.
 | `postDate` | Boolean | `true` | Whether to display the post date in the post meta section.
-| `postCopyright` | Boolean | `true` | Whether to display copyright section.
+| `copyright` | Boolean | `true` | Whether to display copyright section.
 | **Creative Commons License**
 | `creativeCommons` | Object | - |
 | `creativeCommons.by` | Boolean | `true` | Credit must be given to you, the creator.
